@@ -4,11 +4,12 @@ package gommap
 
 import (
 	"io/ioutil"
-	. "launchpad.net/gocheck"
 	"os"
 	"path"
 	"syscall"
 	"testing"
+
+	. "gopkg.in/check.v1"
 )
 
 func TestAll(t *testing.T) {
